@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="before.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="ll.jpg.png" height="200px" class="logo" alt="#">
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Content</a>
+            <a href="#">Feedback</a>
+            <a href="#">About</a>
+            <a href="#">Review</a>
+            </div>
+            <div class="Social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="Abc">
+        <div class="Text">
+            <h3>More Power More Fun More Performance</h3>
+            <h1>Run Into Drive</h1>
+            <p>Have Fun Wtth Great Adventures </p>
+            <a href="" class="Btn">Book a! test Drive</a>
+            
+        </div>
+    </div>
+   
+</body>
+<script>
+    const Abc = document.querySelector('.Abc')
+    setInterval(()=>{
+        Abc.style.backgroundImage="url('no.jpg')"
+    setTimeout(()=>{
+        Abc.style.backgroundImage="url('l.jpg')"
+    },1000)
+    },2000)
+</script>
+</html>
